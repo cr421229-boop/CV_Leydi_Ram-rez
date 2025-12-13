@@ -1,0 +1,60 @@
+/* ====== ESTILO GENERAL ====== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c00808;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== ENCABEZADO ====== */
+header {
+    text-align: left;
+    background-color: #1d3557;
+    color: white;
+    padding: 30px 0;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ====== CONTENEDORES ====== */
+section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.tarjeta {
+    background: blueviolet;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tarjeta h2 {
+    color: #7a1175;
+    margin-bottom: 5px;
+}
+
+.tarjeta h3 {
+    color: #457b9d;
+    margin-top: 0;
+}
+
+/* ====== LISTA DE COMPETENCIAS ====== */
+#competencias ul {
+    list-style: none;
+    padding: 0;
+}
+
+#competencias li {
+    background-color: red;
+    padding: 99px;
+    margin: 80px 0;
+    border-radius: 80px;
+}
